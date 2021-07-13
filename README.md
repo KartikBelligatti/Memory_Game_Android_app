@@ -17,7 +17,7 @@ This how the game goes on...
    
    
    ![Screenshot (1965)](https://user-images.githubusercontent.com/58390249/125461870-05009053-2267-438d-aba1-78f1bf74a333.png)
-   
+       
    
    2. Player selecting the images
 
