@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white"
+
+    tools:context=".MainActivity">
+
+    <include
+        layout="@layout/images"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginRight="20dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+    <TextView
+        android:id="@+id/tv_p1"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="90dp"
+        android:text="Player1: 0"
+        android:fontFamily="@font/bangers"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="true"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <TextView
+        android:id="@+id/tv_p2"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="90dp"
+        android:text="Player2: 0"
+        android:textSize="25sp"
+        android:fontFamily="@font/bangers"
+        tools:layout_editor_absoluteX="true"
+        tools:layout_editor_absoluteY="true" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="269dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="76dp"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginRight="66dp"
+        android:layout_marginBottom="121dp"
+        android:fontFamily="@font/bangers"
+        android:text="Memory Game"
+        android:textAlignment="center"
+        android:textColor="#FF5722"
+        android:textSize="36sp" />
+</RelativeLayout>
